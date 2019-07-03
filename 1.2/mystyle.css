@@ -1,0 +1,52 @@
+#page{
+    position:relative;
+    background-color:#171717;
+    margin:0 auto;
+    min-height:1200px;
+    min-width:1600px;
+    max-width:1600px;
+}
+
+
+body {
+    background-color: #212121;
+    letter-spacing: 1;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+div, ul, li {
+    border: 1px solid white;
+}
+
+#hero_banner{
+    min-height: 756px;
+}
+
+#search_bar {
+    position: relative;
+    width: 676px;
+    height: 46px;
+    top: 570px;
+    left: 460px;
+    background-color: white;
+}
+
+#search_bar p{
+    margin-left: 16px;
+    margin-top: 14px;
+    color: black;    
+}
+
+
+ul.menu {
+    float: right;
+}
+
+ul.menu li {
+    height: 40px;
+    display: inline;
+    float: left;
+
+}
