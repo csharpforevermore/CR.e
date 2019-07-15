@@ -77,10 +77,25 @@ ul.menu li {
     top: 100px;
 }
 
-#mid_header{
 
+#mid{
+    position: relative;
+    left: 50%;
+    top: 400px;
+}
+
+
+#mid_header{
 }
 
 #mid_subheader{
-    
+    top:450px;
 }
+
+.nav-wrapper{
+    position: relative; 
+    top: 500px;
+}
+
+ul.nav { text-align: center;  }
+ul.nav li { display: inline-block; }
