@@ -11,7 +11,7 @@ body {
 #page_wrapper{
   
     margin: auto;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     padding: 10px;
     width: 1600px;
 }
@@ -19,9 +19,6 @@ body {
 #page{
     position: relative;;
     background-color:#171717;
-    /* min-width:1600px;
-    left: -50%;
-    top: -14px; */
     margin:auto;    
 }
 
@@ -50,9 +47,7 @@ ul.menu {
 }
 
 ul.menu li {
-    height: 40px;
     display: inline;
-    float: left;
     padding-right: 20px;
 
 }
@@ -86,6 +81,7 @@ ul.menu li {
 
 
 #mid_header{
+    
 }
 
 #mid_subheader{
@@ -94,8 +90,9 @@ ul.menu li {
 
 .nav-wrapper{
     position: relative; 
-    top: 500px;
+    top: 600px;
 }
 
 ul.nav { text-align: center;  }
 ul.nav li { display: inline-block; }
+ul.nav li button { max-width: 120px; min-height: 100px;}
