@@ -94,5 +94,5 @@ ul.menu li {
 }
 
 ul.nav { text-align: center;  }
-ul.nav li { display: inline-block; }
-ul.nav li button { max-width: 120px; min-height: 100px;}
+ul.nav li { display: inline-block;  list-style-type: none;}
+ul.nav li button { max-width: 120px; min-height: 100px; min-width: 100px;}
